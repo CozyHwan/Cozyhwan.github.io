@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 25px;
+}
+
+.navbar__log {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar__log i {
+    color: #d49;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__menu li {
+    padding: 8px 30px;
+}
+
+.navbar__menu a:hover {
+    color: #007300;
+    border-radius: 4px;
+}
+
+.navbar__icons li {
+    padding: 8px 12px;
+}
+
+.navbar__icons {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+.navbar__links {
+    display: flex;
+    list-style: none;
+}
+
+.fa-github {
+    height: 30px;
+    width: 30px;
+    margin: 15px
+}
+
+.fa-twitter {
+    height: 30px;
+    width: 30px;
+    margin: 15px
+}
+
+@media screen and (max-width: 789px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar__menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__menu li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+.head {
+    text-align: center;
+    background: #2e8555;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    color: white;
+}
+
+.head__text {
+    margin: 25px 0px 25px 0px;
+}
+
+.head__title {
+    font-size: 3rem;
+}
+
+.button {
+    border: 1px solid white;
+    background-color: aliceblue;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.container {
+    padding: 2rem 10rem;
+    height: 100vh;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.item p {
+    font-size: 15px;
+}
